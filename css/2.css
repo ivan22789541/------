@@ -1,0 +1,186 @@
+#nav {
+    max-width:1000px;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    margin: 0 15% 0 15%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.top-menu {
+    width: 100%;
+    margin: 1rem 0 0;
+    padding: 0;
+}
+
+.top-menu ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-menu ul .item {
+	padding: 0 4% 0 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.top-menu ul .item a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.top-menu ul .item1 {
+	padding: 0 4% 0 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+	margin-left: auto;
+}
+
+.top-menu ul .item1 button {
+    width: 310px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 65px;
+    border: 1px solid #868686;
+    background: #fff;
+    cursor: pointer;
+}
+
+.top-menu ul .item p {
+    color: #0069B4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer {
+    margin-top: 5%;
+    padding-top: 93px;
+    padding-bottom: 55px;
+    background: #0069B4;
+    width: auto;
+}
+
+.footer .spisok {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .spisok b {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .spisok li {
+    list-style-type: none;
+}
+
+.footer .spisok a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.aside .block {
+    margin: 3% 0 0 0;
+    height: 110px;
+    width: 100%;
+    background: #3F87D3;
+}
+
+.aside .block p {
+    padding: 2% 0 0 15%;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container {
+    margin: 5% 0% 0 30%;
+}
+
+.container .block {
+    width: 764px;
+    height: 1035px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #EEE;
+}
+
+.container .block p {
+    padding: 5% 0 0 5%; 
+    color: #3F87D3;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .block .sps {
+    margin-left: 8%; 
+}
+
+.container .block .sps p {
+    color: #3F87D3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container .block .sps input {
+    width: 643px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+}
+
+.container .block .but button {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    width: 310px;
+    height: 57px;
+    border: none;
+    cursor: pointer;
+    border-radius: 65px;
+    margin-left: 30%;
+}

@@ -1,0 +1,362 @@
+#nav {
+    max-width:1000px;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    margin: 0 15% 0 15%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.top-menu {
+    width: 100%;
+    margin: 1rem 0 0;
+    padding: 0;
+}
+
+.top-menu ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-menu ul .item {
+	padding: 0 4% 0 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.top-menu ul .item a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.top-menu ul .item1 {
+	padding: 0 4% 0 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+	margin-left: auto;
+}
+
+.top-menu ul .item1 button {
+    width: 310px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 65px;
+    border: 1px solid #868686;
+    background: #fff;
+    cursor: pointer;
+}
+
+.top-menu ul .item p {
+    color: #0069B4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.aside .block {
+    margin: 3% 0 0 0;
+    height: 110px;
+    width: 100%;
+    background: #3F87D3;
+}
+
+.aside .block p {
+    padding: 2% 0 0 15%;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer {
+    margin-top: 5%;
+    padding-top: 93px;
+    padding-bottom: 55px;
+    background: #0069B4;
+    width: auto;
+}
+
+.footer .spisok {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .spisok b {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .spisok li {
+    list-style-type: none;
+}
+
+.footer .spisok a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+     margin: 0 20% 0 15%;
+}
+
+.container .bl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container p {
+    color: #4E67A7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .sps {
+    background-image: url("../img/Rectangle 2.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50% 0 0 12%;
+}
+
+.container .sps button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 30% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps1 {
+    background-image: url("../img/Rectangle 3.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps2 {
+    background-image: url("../img/Rectangle 4.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps3 {
+    background-image: url("../img/Rectangle 5.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps4 {
+    background-image: url("../img/Rectangle 6.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps5 {
+    background-image: url("../img/Rectangle 7.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps6 {
+    background-image: url("../img/Rectangle 8.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps7 {
+    background-image: url("../img/Rectangle 9.png");
+    width: 248px;
+    height: 347px;
+    margin-bottom: 5%;
+}
+
+.container .sps1 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 40% 0 0 12%;
+}
+
+.container .sps1 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 18% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps2 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50% 0 0 12%;
+}
+
+.container .sps2 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 30% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps3 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 60% 0 0 12%;
+}
+
+.container .sps3 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 30% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps4 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 62% 0 0 12%;
+}
+
+.container .sps4 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 30% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps5 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50% 0 0 12%;
+}
+
+.container .sps5 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 30% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps6 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50% 0 0 12%;
+}
+
+.container .sps6 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 30% 0 0 25%;
+    cursor: pointer;
+}
+
+.container .sps7 p{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50% 0 0 12%;
+}
+
+.container .sps7 button {
+    width: 122px;
+    height: 37px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #fff;
+    margin: 20% 0 0 25%;
+    cursor: pointer;
+}

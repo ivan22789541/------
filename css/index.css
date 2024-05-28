@@ -1,0 +1,349 @@
+#nav {
+    max-width:1000px;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    margin: 0 15% 0 15%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.top-menu {
+    width: 100%;
+    margin: 1rem 0 0;
+    padding: 0;
+}
+
+.top-menu ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-menu ul .item {
+	padding: 0 4% 0 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.top-menu ul .item a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.top-menu ul .item1 {
+	padding: 0 4% 0 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+	margin-left: auto;
+}
+
+.top-menu ul .item1 button {
+    width: 310px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 65px;
+    border: 1px solid #868686;
+    background: #fff;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.6s;
+}
+
+.top-menu ul .item1 button:hover {
+    background-color: #0069B4;
+    color: #fff;
+}
+
+.top-menu ul .item p {
+    color: #0069B4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.aside {
+    position: relative;
+    padding: 2% 0 0 0;
+    display: inline-block;
+}
+
+.aside img {
+    margin: 0 0 0 0;
+}
+
+.aside span {
+    position: absolute;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    left: 15%;
+    bottom: 45%;
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+}
+
+.container .block1 {
+    width: 699px;
+    height: 597px;
+    border-radius: 31px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.container .block2 {
+    margin-left: 2%;
+    width: 628px;
+    height: 597px;
+    border-radius: 15px;
+    background: #30AFCF;
+}
+
+.container .block1 p {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container .block1 input {
+    margin-top: 5%;
+    text-align: center;
+    width: 310px;
+    height: 57px;
+    border-radius: 65px;
+    border: 1px solid #8D8D8D;    
+    color: #505050;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container .block1 .vnytrblock1 {
+    margin: 20% 0 0 35%;
+}
+
+.container .block1 button {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    width: 310px;
+    height: 57px;
+    border: none;
+    cursor: pointer;
+    border-radius: 65px;
+    transition: box-shadow 0.1s 0.2s;
+}
+
+.container .block1 button:hover {
+    box-shadow:  0 0 0 2px #fff, 0 0 0 4px #0069B4;;
+}
+
+.container img{
+    position: absolute;
+    margin: 3% -6%;
+}
+
+.container .block2 .vnytrblock2 .spisok {
+    margin: 5% 0 0 10%;
+    list-style-type: none;
+    color: #fff;
+    font-style: normal;
+}
+
+.container .block2 .vnytrblock2 .spisok11 {
+    margin: 15% 0 0 5%;
+    list-style-type: none;
+    color: #fff;
+    font-style: normal;
+}
+
+.container .block2 .vnytrblock2 .spisok1 {
+    margin: 5% 0 0 5%;
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none;
+}
+
+.str {
+    margin: 5% 15% 0 15%;
+}
+
+.str p {
+    color: #004F88;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.str .bl {
+    display: flex;
+    margin-left: 13%;
+}
+
+.str .bl a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 5%;
+    width: 208px;
+    height: 232px;
+    flex-shrink: 0;
+    background: #EBEBEB;
+}
+
+.str .bl a img {
+    margin: 15% 0 0 19%;
+}
+
+.str .bl a p {
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer {
+    margin-top: 5%;
+    padding-top: 93px;
+    padding-bottom: 55px;
+    background: #0069B4;
+    width: auto;
+}
+
+.footer .spisok {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .spisok b {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .spisok li {
+    list-style-type: none;
+}
+
+.footer .spisok a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.popap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+
+    background: transparent;
+}
+
+.popap_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.popap_body {
+    margin:auto;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.popap_body .box {
+    margin-top: 12%;
+}
+
+.popap_body .box p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.popap_body .box button {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    width: 310px;
+    height: 57px;
+    border: none;
+    cursor: pointer;
+    border-radius: 65px;
+    background: #0069B4;
+    margin-left: 26%;
+}
+
+.popap_body .popap_close {
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 24px;
+    left: 90%;
+}
+
+.popap.active {
+    transform: translateY(0%) scale(100%);
+    background: rgba(0, 0, 0, .8);
+}
